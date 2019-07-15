@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>궁금했성</title>
+    <style>
+    #header {
+    text-align: left;
+    margin:0;
+    padding:10px;
+    display:grid;
+    grid-template-columns: 2fr 4fr 1fr 1fr;
+    border:5px solid black;
+    }
+
+    .logo{
+    border:5px solid black;
+
+    }
+
+    .search{
+    border:5px solid black;
+    }
+
+    .var_icon{
+    border:5px solid black;
+    }
+    .mypage_icon{
+    border:5px solid black;
+
+    }
+
+    #nav{
+    margin:0;
+    margin-bottom:10px;
+    border: 5px solid blue;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    }
+
+    .pad{
+        border: 3px solid rgb(23, 180, 44);
+        padding : 5px;
+        
+    }
+    .cup{
+        border: 3px solid rgb(23, 180, 44);
+        padding : 5px;
+    }
+    .tampon{
+        border: 3px solid rgb(23, 180, 44);
+        padding : 5px;
+    }
+
+    .s_image{
+        border : 3px solid orangered;
+        padding : 80px;
+    
+        text-align : center;
+    }
+    .s_name{
+        border : 3px solid black;
+        text-align : center;
+    }
+
+    .information{
+        text-align : center;
+        margin : 10px 0px;
+    }
+
+    .information :nth-child(1){
+        border : 3px solid gray;
+    }
+    .information :nth-child(2){
+        border : 3px solid gray;
+        border-top :0;
+    }
+    .information :nth-child(3){
+        border : 3px solid gray;
+        border-top :0;
+    }
+    .information :nth-child(4){
+        border : 3px solid gray;
+        border-top :0;
+    }
+
+    .like{
+        display : grid;
+        grid-template-columns: 1fr 1fr;
+        padding : 10px;
+        text-align : center;
+
+        
+
+    }
+    .like :nth-child(1){
+        border : 3px solid gray;
+        padding : 10px;
+        margin : 0% 20%;
+        
+        
+    }
+    .like :nth-child(2){
+        border : 3px solid gray;
+        padding : 10px;
+        margin : 0% 20%;
+        
+    }
+    .review{
+        border : 3px solid yellow;
+    }
+    .intro{
+        text-align:center;
+    }
+    .box{
+        display : grid;
+        grid-template-columns : 1fr 1fr;
+        text-align : center;
+    }
+    .star{
+        border : 3px solid yellow;
+        padding : 20px;
+        
+    }
+    .score_graph{     
+        border : 3px solid yellow;
+        padding : 20px;
+        
+    }
+    .review_img{
+        display : grid;
+        
+        grid-gap : 1rem;;
+        grid-template-columns:1fr 1fr 1fr;
+
+    }
+    .img{
+        border : 3px solid rgb(60, 109, 182);
+        padding : 22px;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div id= "header">
+        <span class="logo">궁금했성</span>
+        <span class="search">search</span>
+        <span class="var_icon">ㅁ</span>
+        <span class="mypage_icon">ㅁ</span>
+     </div>
+
+     <div id = "nav">
+            <a href="#" class="pad">생리대</a>
+            <a href="#" class="cup">생리컵</a>
+            <a href="#" class="tampon">탐폰</a>
+    </div>
+
+    <div class="container">
+        <div class="s_image">
+            생리대 이미지 들어갑니다.
+        </div>
+        <div class="s_name">
+            좋은 느낌 순수
+        </div>
+        <div class="information">
+            <section>평점</section>
+            <section>용량</section>
+            <section>사이즈</section>
+            <section>정가</section>
+        </div>
+        <div class="like">
+            <div>좋아요</div>
+            <div>즐겨찾기</div>
+        </div>
+        <div class= "review">
+            <div class="intro">상품후기</div>
+            <div class="box">
+                <div class="star">
+                    <div>점수</div>
+                    <div>*****</div>
+                </div>
+                <div class="score_graph">
+                    그래프
+                </div>
+            </div>
+            <div class="review_img">
+                <div class="img">
+                    리뷰 이미지
+                </div>
+                <div class="img">
+                    리뷰 이미지
+                </div>
+                <div class="img">
+                    리뷰 이미지
+                </div>
+                <div class="img">
+                    리뷰 이미지
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

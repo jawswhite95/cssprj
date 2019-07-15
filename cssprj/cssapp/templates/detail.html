@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>궁금했성</title>
+    <style>
+    #header {
+    text-align: left;
+    margin:0;
+    padding:10px;
+    display:grid;
+    grid-template-columns: 2fr 4fr 1fr 1fr;
+    border:5px solid black;
+    }
+
+    .logo{
+    border:5px solid black;
+
+    }
+
+    .search{
+    border:5px solid black;
+    }
+
+    .var_icon{
+    border:5px solid black;
+    }
+    .mypage_icon{
+    border:5px solid black;
+
+    }
+
+    .container{
+        display : grid;
+        grid-gap : 0.5rem;
+    }
+    .intro{
+        border:3px solid blue;
+        text-align : center;
+        padding:5px;
+    }
+
+    .s_image{
+        border:3px solid orangered;
+        padding : 60px;
+        text-align : center;
+    }
+
+    .review_star{
+        border:3px solid yellow;
+        text-align :center;
+        padding : 10px;
+    }
+
+    .review{
+        display : grid;
+        grid-gap : 0.5rem;
+        text-align : left;
+        
+    }
+    .good{
+        border:3px solid gray;
+        padding:10px;
+    }
+
+    .bad{
+        border:3px solid gray;
+        padding:10px;
+    }
+
+    .photo{
+        border:3px solid gray;
+        display : grid;
+        grid-template-columns: 30px 80px 30px 30px 30px 1fr;
+    }
+    .choose{
+        display : table;
+        text-align: ceter;
+        margin-left : auto;
+        margin-right : auto;
+        width : 30%;
+        border:3px solid gray;
+        text-align : center;
+    }
+
+    </style>
+
+<body>
+    <div id= "header">
+        <span class="logo">궁금했성</span>
+        <span class="search">search</span>
+        <span class="var_icon">ㅁ</span>
+        <span class="mypage_icon">ㅁ</span>
+     </div>
+
+     <div class="container">
+        <div class="intro">후기작성</div>
+        <div class="s_image">생리대이미지</div>
+        <div class="review_star">
+            <p>평점을 선택해주세요.</p>
+            <div class="star">
+                *****
+            </div>
+        </div>
+        <div class = "review">
+            <div class ="good">
+                <p>좋았던 점</p>
+                <p>사용하신 제품의 자세한 리뷰를 남겨주세요.</p>
+            </div>
+            <div class ="bad">
+                <p>아쉬운 점</p>
+                <p>사용하신 제품의 자세한 리뷰를 남겨주세요.</p>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="c_icon">+</div>
+            <div class = "a">사진 등록</div>
+            <div class="icon">ㅁ</div>
+            <div class="icon">ㅁ</div>
+            <div class="icon">ㅁ</div>
+        </div>
+        <div class="choose">사진 선택하기</div>
+    </div>
+</body>

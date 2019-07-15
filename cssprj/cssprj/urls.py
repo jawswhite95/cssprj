@@ -20,5 +20,11 @@ import cssapp.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',cssapp.views.home,name = 'home'),
-    path('mediaq/',cssapp.views.mediaq,name = 'mediaq')
+   #path('mediaq/',cssapp.views.mediaq,name = 'mediaq'),
+    path('sex/',cssapp.views.sex, name = 'sex'),
+    path('news/',cssapp.views.news, name = 'news'),
+    path('sanitary/',cssapp.views.sanitary, name = 'sanitary'),
+    path('detail/',cssapp.views.detail, name = 'detail'),
+    path('login/',cssapp.views.login, name = 'login'),
+    path('signup/',cssapp.views.signup, name = 'signup'),
 ]

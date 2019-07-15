@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>궁금했성</title>
+    <style>
+        .header{
+            border : 3px solid gray;
+            display : grid;
+            grid-template-columns : 20px 1fr 20px; 
+        }
+        .back{
+            padding : 5px;
+        }
+        .signup{
+            padding : 5px;
+            text-align : center;
+        }
+        .help{
+            padding : 5px;
+        }
+
+        .input{
+            display : grid;
+            grid-gap : 1rem;
+        }
+
+        .email{
+            margin-left : 10%;
+            margin-right : 10%;
+            border-bottom:3px solid rgb(177, 21, 81);
+        }
+
+        .password{
+            margin-left : 10%;
+            margin-right : 10%;
+            border-bottom:3px solid rgb(177, 21, 81);
+        }
+        .confirm_password{
+            margin-left : 10%;
+            margin-right : 10%;
+            border-bottom:3px solid rgb(177, 21, 81);
+        }
+        .sung{
+            margin-left : 10%;
+            margin-right : 10%;
+            text-align:left;
+        }
+        .gender{
+            display : grid;
+            text-align: center;
+            margin-left : 10%;
+            margin-right : 10%;
+            grid-template-columns: 1fr 1fr;
+        }
+        .man{
+            border:3px solid rgb(177, 21, 81);
+            padding-left:30px;
+            padding-right:30px;
+            text-align:center;
+        }
+        .woman{
+            border:3px solid rgb(177, 21, 81);
+            padding-left:30px;
+            padding-right:30px;
+            text-align:center;
+        }
+        .birth{
+            margin-left : 10%;
+            margin-right : 10%;
+            text-align:left;
+        }
+
+        .birthday{
+            display : grid;
+            text-align: center;
+            margin-left : 10%;
+            margin-right : 30%;
+            grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr;
+        }
+        .y{
+            border-bottom:3px solid rgb(177, 21, 81);
+        }
+        .m{
+            border-bottom:3px solid rgb(177, 21, 81);
+        }
+        .d{
+            border-bottom:3px solid rgb(177, 21, 81);
+        }
+        .signup_bar{
+            background-color:  rgb(177, 21, 81); 
+            padding:10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="back">←</div>
+        <div class="signup">회원가입</div>
+        <div class="help">?</div>
+    </div>
+    <div class="input">
+        <div class="email">
+            <p>이메일</p>
+            <p>이메일 주소를 입력해주세요.</p>
+        </div>
+        <div class="password">
+            <p>비밀번호</p>
+            <p>비밀번호를 6자리 이상 입력해주세요.</p>
+        </div>
+        <div class="confirm_password">
+            <p>비밀번호 확인</p>
+            <p>비밀번호를 6자리 이상 입력해주세요.</p>
+        </div>
+        <div class="sung">
+            <p>성별</p>
+        </div>
+        <div class="gender">
+            <div class="man">남성</div>
+            <div class="woman">여성</div>
+        </div>
+        <div class="birth">
+            <p>생년월일</p>
+        </div>
+        <div class="birthday">
+            <div class="y">
+                yyyy
+            </div>
+            <div class="year">년</div>
+            <div class="m">
+                mm
+            </div>
+            <div class="month">월</div>
+            <div class="d">
+                dd
+            </div>
+            <div class="day">일</div>
+        </div>
+        <div class="signup_bar">
+            <a href ="#">가입하기</a>
+        </div>
+    </div>
+</body>
+</html>
